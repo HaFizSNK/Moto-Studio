@@ -52,16 +52,18 @@ background-size: cover;
               /* display: none; */
             }
   }
-
-  @media screen and (max-width:65px) {
+  @media screen and (min-width:656px) {
     .image-fluid{
-      margin-left: 0px;
-      height:200px;
-      width:400px;
-      margin-top: -50px;
+      margin-left: 250px;
+      height:400px;
+      width:300px;
+      margin-top: -140px;
       /* display: none; */
     }
 }
+
+
+  
    .service{
     background-color: yellow;
 }
